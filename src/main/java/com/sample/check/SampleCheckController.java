@@ -20,9 +20,6 @@ SampleCheckController {
 
 @PostMapping("/create")
 
-
-
-
     public ResponseEntity<Order> createOrder(@RequestBody Order order) {
 
 
